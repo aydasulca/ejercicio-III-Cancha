@@ -1,0 +1,78 @@
+#cancha {
+  position: relative;
+  background-color: #8CB27D;
+  width: 900px;
+  height: 540px;
+  top: 50px;
+  left: 200px;
+}
+#linea {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  background-color: #8CB27D;
+  width: 860px;
+  height: 500px;
+  border: 1px solid #F0F0F0;
+}
+
+#arcoIzquierda {
+  border: 1px solid #F0F0F0;
+  border-left: 0px;
+  position: absolute;
+  display: inline-block;
+  top: 150px;
+  height:200px;
+  width: 100px;
+}
+
+#arcoDerecha {
+  border: 1px solid #F0F0F0;
+  border-right: 0px;
+  position: absolute;
+  display: inline-block;
+  top: 150px;
+  left: 759px;
+  right: 150px;
+  height:200px;
+  width: 100px;
+}
+
+#circuloCentral {
+  border-radius: 50%;
+  background-color: #8CB27D;
+  border: 1px solid #F0F0F0;
+  height:100px;
+  width: 100px;
+  top: 160px;
+  left: 380px;
+  position: relative;
+}
+
+.pelota {
+  background-color: #F0F0F0;
+  border: 0px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+
+#P1 {
+  position: relative;
+  display: inline-block;
+  top: 148px;
+  left: 95px;
+}
+
+#P2 {
+  position: relative;
+  display: inline-block;
+  left: 500px;
+  top: 100px;
+}
+#P3 {
+  position: relative;
+  display: inline-block;
+  left: 715px;
+  top: 338px;
+}
